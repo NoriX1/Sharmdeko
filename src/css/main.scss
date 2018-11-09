@@ -1,14 +1,17 @@
 // vars
-$footer_height:50px;
-$container_width:940px;
+$footer_height:708px;
+$container_width:1170px;
 $body_font-size:16px;
 $body_line-height:1.42;
-$maincontent_padding-bottom: 50px;
+$yellow: #ffc000;
+$grey: #494949;
+$black: #262626;
 
 // layout
-@import"_misc/mixins";
+@import "_misc/mixins";
 @import "_misc/normalize";
 @import "_misc/adjustment";
+@import "_misc/fonts";
 
 // styles
-//@import"sections/header";
+@import "sections/header";

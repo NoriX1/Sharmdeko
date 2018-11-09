@@ -29,25 +29,9 @@ body{
     overflow: hidden;
 }
 
-.maincontent{
-    padding-bottom: maincontent_padding-bottom;
-}
-
 .container{
     width: $container_width;
     margin: 0 auto;
-    @include desktop{
-        width: 970px;
-    }
-    @include laptop{
-        width: 750px;
-    }
-    @include tablet{
-        width: 480px;
-    } 
-    @include phone{
-        width: auto;
-    }
 }
 
 * {

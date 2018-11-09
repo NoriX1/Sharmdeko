@@ -2,30 +2,6 @@
     @return $px / 16px + 0rem;
 }
 
-@mixin desktop{
-    @media screen and (max-width: 1200px){
-        @content;
-    }
-}
-
-@mixin laptop{
-    @media screen and (max-width: 992px){
-        @content;
-    }
-}
-
-@mixin tablet{
-    @media screen and (max-width: 768px){
-        @content;
-    }
-}
-
-@mixin phone{
-    @media screen and (max-width: 480px){
-        @content;
-    }
-}
-
 @mixin box-shadow($params){
     box-shadow: $params;
     -webkit-box-shadow: $params;
@@ -39,4 +15,16 @@
         clear: both;
     }
 }
- 
+
+@mixin OpenSans($style: light){
+
+    @if $style == light{
+        font-family: 'open_sanscondensed_light';
+    }
+    @if $style == bold{
+        font-family: 'open_sans_condensedbold';
+    }
+    @if $style == italic{
+        font-family: 'opensans-condlightitalic';
+    }
+}
