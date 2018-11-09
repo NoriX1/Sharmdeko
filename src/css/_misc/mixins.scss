@@ -28,3 +28,14 @@
         font-family: 'opensans-condlightitalic';
     }
 }
+@mixin Myriad($style: regular){
+    @if $style == regular{
+        font-family: 'Myriad Pro Regular';
+    }
+    @if $style == bold{
+        font-family: 'Myriad Pro Bold';
+    }
+    @if $style == italic{
+        font-family: 'Myriad Pro Italic';
+    }
+}

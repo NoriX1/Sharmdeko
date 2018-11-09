@@ -5,5 +5,7 @@
   "authors": [],
   "license": "ISC",
   "homepage": "https://github.com/Vomilas/Sharmdeko",
-  "dependencies": {}
+  "dependencies": {
+    "bxslider-4": "^4.2.15"
+  }
 }
