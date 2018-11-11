@@ -1,0 +1,80 @@
+body{
+    @include Myriad();
+}
+.header{
+    margin-top: 30px;
+    margin-bottom: -150px;
+    position: sticky;
+    z-index: 1000;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    width: 94px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 35px;
+    &::before{
+        display: block;
+        width: 68px;
+        height: 68px;
+        background-color: black;
+        content: "";
+        position: absolute;
+        top: 11px;
+        left: 12px;
+        z-index: -1;
+
+    }
+}
+.header__desc{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 170px;
+    @include OpenSans(light);
+    color: white;
+    &::before{
+        display: block;
+        content: "";
+        position: absolute;
+        height: 43px;
+        width: 1px;
+        background-color: white;
+        top: 3px;
+        left: -13px;
+
+
+    }
+}
+.logo__image{
+    max-width: 100%;
+}
+.header__phone{
+    vertical-align: middle;
+    display: inline-block;
+    height: 43px;
+    width: 43px;
+    background-color: $yellow;
+    content: "";
+}
+.header__phone-image{
+    max-width: 100%;
+    position: relative;
+    left: 9px;
+    top: 9px;
+}
+.header__number{
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    @include Myriad();
+    font-size: 30.5px;
+    color: white;
+    background-color: rgba(38,38,38, .7);
+    padding: 0px 14px;
+}
