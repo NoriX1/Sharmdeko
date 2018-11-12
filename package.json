@@ -28,11 +28,11 @@
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.1",
+    "gulp-sass": "^3.2.1",
     "gulp-sourcemaps": "^2.0.0-alpha",
     "gulp-uglify": "^1.5.3",
     "gulp-useref": "^3.0.8",
-    "gulp-wiredep": "0.0.0"
+    "gulp-wiredep": "^1.2.0"
   },
   "dependencies": {
     "gulp-compass": "^2.1.0",
