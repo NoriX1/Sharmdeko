@@ -1,0 +1,84 @@
+.footer{
+    border-top: 65px solid $yellow;
+    border-bottom: 65px solid $yellow;
+    position: relative;
+    color: $black;
+    font-size: 18px;
+}
+.footer__map{
+    width: 100%;
+    height: 100%;
+}
+.footer__contacts{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    top: 110px;
+    right: 55px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.contacts__left{
+    width: 240px;
+}
+.contacts__right{
+    width: 200px;
+}
+.contacts__title{
+    font-size: 48px;
+}
+.contacts__adress-title{
+    @include Myriad(bold);
+}
+.contacts__adress{
+    @include Myriad(italic);
+    margin-bottom: 10px;
+}
+.contacts__number{
+    font-size: 24px;
+    @include Myriad(italic);
+    font-weight: bold;
+}
+.contacts__mail{
+    @include Myriad(italic);
+    text-decoration: none;
+    color:$black;
+}
+.contacts__logo{
+    width: 170px;
+    height: 150px;
+    border: 5px solid $black;
+    background: url(/assets/images/logo-black.png) 41% center no-repeat;
+    margin-bottom: 10px;
+}
+.contacts__desc{
+    font-size: 16px;
+}
+.social__list{
+    position: absolute;
+    left: 140px;
+    bottom: -53px;
+}
+.social__item{
+    display: inline-block;
+    margin-right: 10px;
+}
+.social__link{
+    display: block;
+    width: 94px;
+    height: 94px;
+    opacity: .8;
+    &:hover{
+        opacity: 1;
+    }
+}
+.social__link-vimeo{
+    background: url(/assets/images/logo__vimeo.png) center center no-repeat;
+}
+.social__link-insta{
+    background: url(/assets/images/logo__insta.png) center center no-repeat;
+}
