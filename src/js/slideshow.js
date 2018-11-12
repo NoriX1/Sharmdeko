@@ -4,7 +4,7 @@ $(document).ready(function(){
             e.preventDefault();
             var current = $(this);
             var item = current.closest(".gallery__item");
-            var container = current.closest(".project");
+            var container = current.closest(".project__content-item");
             var urlOfImage = current.children(".gallery__image").css("background-image");
             var urlofImageURL = urlOfImage.replace("url(\"","");
             urlofImageURL = urlofImageURL.replace("\")","");
