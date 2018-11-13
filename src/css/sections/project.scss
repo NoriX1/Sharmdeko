@@ -1,3 +1,6 @@
+.project{
+    margin-bottom: 20px;
+}
 .project__header{
     display: flex;
     flex-direction: row;
@@ -157,10 +160,8 @@
 }
 .project__button-icon{
     display: inline-block;
-    content: "";
     width: 16px;
     height: 16px;
-    background-image: url(/assets/images/icons/click.png);
     margin-right: 10px;
     margin-bottom: 3px;
     vertical-align: middle;

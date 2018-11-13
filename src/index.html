@@ -28,7 +28,9 @@
                 </div>
                 <div class="header__right">
                     <div class="header__phone">
-                        <img src="/assets/images/icons/phone.png" alt="phone" class="header__phone-image">
+                        <svg class="header__phone-svg" width="26" height="26" fill="white">
+                            <use xlink:href="/assets/images/icons/sprite.svg#icon-phone"></use>
+                        </svg>
                     </div>
                     <div class="header__number">+7 (499) 654 60 41</div>
                 </div>
@@ -66,44 +68,44 @@
                 <div class="container">
                     <ul class="service__list">
                         <li class="service__item">
-                            <div class="service__icon">
-                                <img src="/assets/images/icons/ico1.png" alt="" class="service__ico">
-                            </div>
+                            <svg class="service__icon" width="30" height="30" fill="black">
+                                <use xlink:href="/assets/images/icons/sprite.svg#icon-design-tool"></use>
+                            </svg>
                             <div class="service__title">Дизайн интерьера</div>
                             <div class="service__desc">Дизайн интерьеров от бюджетных вариантов до элитных. Любых стилей и направлений от классики до современного стиля.</div>
                         </li>
                         <li class="service__item">
-                            <div class="service__icon">
-                                <img src="/assets/images/icons/ico2.png" alt="" class="service__ico">
-                            </div>
+                            <svg class="service__icon" width="32" height="32" fill="black">
+                                <use xlink:href="/assets/images/icons/sprite.svg#icon-armchair"></use>
+                            </svg>
                             <div class="service__title">Проектирование мебели</div>
                             <div class="service__desc">Проектируем и изготавливаем мебель стандартных и нестандартных размеров.</div>
                         </li>
                         <li class="service__item">
-                            <div class="service__icon">
-                                <img src="/assets/images/icons/ico3.png" alt="" class="service__ico">
-                            </div>
+                            <svg class="service__icon" width="30" height="30" fill="black">
+                                <use xlink:href="/assets/images/icons/sprite.svg#icon-coffee-machine"></use>
+                            </svg>
                             <div class="service__title">Коммерческие помещения</div>
                             <div class="service__desc">Выполняем дизайн коммерческих помещение баров, ресторанов, офисов и магазинов.</div>
                         </li>
                         <li class="service__item">
-                            <div class="service__icon">
-                                <img src="/assets/images/icons/ico4.png" alt="" class="service__ico">
-                            </div>
+                            <svg class="service__icon" width="30" height="30" fill="black">
+                                <use xlink:href="/assets/images/icons/sprite.svg#icon-house-plans"></use>
+                            </svg>
                             <div class="service__title">Мебель по проекту</div>
                             <div class="service__desc">Нестандартная и стандартная сборка мебели по дизайн - проекту.</div>
                         </li>
                         <li class="service__item">
-                            <div class="service__icon">
-                                <img src="/assets/images/icons/ico5.png" alt="" class="service__ico">
-                            </div>
+                            <svg class="service__icon" width="30" height="30" fill="black">
+                                <use xlink:href="/assets/images/icons/sprite.svg#icon-double-arrow"></use>
+                            </svg>
                             <div class="service__title">Замер помещения</div>
                             <div class="service__desc">Обмер объекта, оформление плана и проекция стен.</div>
                         </li>
                         <li class="service__item">
-                            <div class="service__icon">
-                                <img src="/assets/images/icons/ico6.png" alt="" class="service__ico">
-                            </div>
+                            <svg class="service__icon" width="35" height="35" fill="black">
+                                <use xlink:href="/assets/images/icons/sprite.svg#icon-cart-with-boxes"></use>
+                            </svg>
                             <div class="service__title">Доставка мебели</div>
                             <div class="service__desc">Доставка мебели и подъем на этаж.</div>
                         </li>
@@ -111,7 +113,181 @@
                     <div class="service__image"><img src="/assets/images/chair.png" alt="" class="service__img"></div>
                 </div>
             </section>
-            <section class="style">
+            <section class="project">
+                <div class="container">
+                    <div class="project__header">
+                        <div class="project__header-left">
+                            <h2 class="project__title">Реализованные проекты</h2>
+                        </div>
+                        <div class="project__header-right">
+                            <ul class="project__list">
+                                <li class="project__item active">
+                                    <a class="project__link" href="#tab_1">ИНТЕРЬЕР</a>
+                                </li>
+                                <li class="project__item">
+                                    <a class="project__link" href="#tab_2">МЕБЕЛЬ</a>
+                                </li>
+                                <li class="project__item">
+                                    <a class="project__link" href="#tab_3">ИНЖЕНЕРИЯ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="project__content">
+                        <li class="project__content-item active" id="tab_1">
+                            <div class="project__content-left gallery">
+                                <div class="gallery__screen">
+                                    <div class="gallery__photo" style="background-image: url(/assets/images/slideshow2.jpg)"></div>
+                                    <div class="gallery__preloader"></div>
+                                </div>
+                                <ul class="gallery__list">
+                                    <li class="gallery__item"><a href="/assets/images/slideshow.png" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow.png)"></div></a></li>
+                                    <li class="gallery__item"><a href="/assets/images/slideshow2.jpg" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow2.jpg)"></div></a></li>
+                                    <li class="gallery__item"><a href="/assets/images/slideshow3.jpg" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow3.jpg)"></div></a></li>
+                                </ul>
+                            </div>
+                            <div class="project__content-right">
+                                <div class="project__content-name">ПРОЕКТ КВАРТИРЫ</div>
+                                <div class="project__content-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus fugit delectus quae sapiente autem repudiandae vel dolorum, consectetur, ex nesciunt magnam tempora, excepturi non vitae architecto rem quasi. Beatae sunt at minus consectetur temporibus quaerat, recusandae. Illo ratione quia aspernatur cumque dolorum dolor facilis nostrum, repellat, temporibus sunt voluptate beatae.</p>
+                                <p>Totam repudiandae magni minima quaerat explicabo culpa debitis laudantium repellat placeat. Vel sapiente earum delectus illo doloribus quae animi, ratione fuga distinctio! Magnam voluptatum voluptas in praesentium quia numquam asperiores, velit officiis officia dolore quisquam, optio, fuga veritatis sequi blanditiis. Alias ullam laborum quasi nobis, velit officiis aut repellat nihil.</p></div>
+                                <table class="project__table table">
+                                    <tr class="table__row">
+                                        <td class="table__column">Город</td>
+                                        <td class="table__column">Москва</td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__column">Площадь</td>
+                                        <td class="table__column">80м<sup>2</sup></td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__column">Сроки проектирования</td>
+                                        <td class="table__column">1,5 месяца</td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__column">Сроки работ</td>
+                                        <td class="table__column">4 месяца</td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__column">Стоимость проекта</td>
+                                        <td class="table__column">127 000 Р.</td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__column">Стоимость работ</td>
+                                        <td class="table__column">1 270 000 Р.</td>
+                                    </tr>
+                                </table>
+                                <a href="#" class="project__button">
+                                    <svg class="project__button-icon" width="16" height="16" fill="white">
+                                        <use xlink:href="/assets/images/icons/sprite.svg#icon-cursor"></use>
+                                    </svg>
+                                    <div class="project__button-text">ПОСМОТРЕТЬ ВСЕ РАБОТЫ</div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="project__content-item" id="tab_2">
+                            <div class="project__content-left gallery">
+                                <div class="gallery__screen">
+                                    <div class="gallery__photo" style="background-image: url(/assets/images/slideshow2.jpg)"></div>
+                                    <div class="gallery__preloader"></div>
+                                </div>
+                                <ul class="gallery__list">
+                                    <li class="gallery__item"><a href="/assets/images/slideshow3.jpg" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow3.jpg)"></div></a></li>
+                                    <li class="gallery__item"><a href="/assets/images/slideshow2.jpg" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow2.jpg)"></div></a></li>
+                                    <li class="gallery__item"><a href="/assets/images/slideshow.png" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow.png)"></div></a></li>
+                                </ul>
+                            </div>
+                            <div class="project__content-right">
+                                <div class="project__content-name">Проект Мебели</div>
+                                <div class="project__content-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus consectetur natus, omnis voluptatem sapiente nulla minus odio nisi aspernatur dolorem.</p></div>
+                                <table class="project__table table">
+                                    <tr class="table__row">
+                                        <td class="table__column">Город</td>
+                                        <td class="table__column">Спб</td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__column">Площадь</td>
+                                        <td class="table__column">2м<sup>2</sup></td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__column">Сроки проектирования</td>
+                                        <td class="table__column">1,5 месяца</td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__column">Сроки работ</td>
+                                        <td class="table__column">4 месяца</td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__column">Стоимость проекта</td>
+                                        <td class="table__column">50 000 Р.</td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__column">Стоимость работ</td>
+                                        <td class="table__column">900 000 Р.</td>
+                                    </tr>
+                                </table>
+                                <a href="#" class="project__button">
+                                    <svg class="project__button-icon" width="16" height="16" fill="white">
+                                        <use xlink:href="/assets/images/icons/sprite.svg#icon-cursor"></use>
+                                    </svg>
+                                    <div class="project__button-text">ПОСМОТРЕТЬ ВСЕ РАБОТЫ</div>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="project__content-item" id="tab_3">
+                            <div class="project__content-left gallery">
+                                <div class="gallery__screen">
+                                    <div class="gallery__photo" style="background-image: url(/assets/images/slideshow2.jpg)"></div>
+                                    <div class="gallery__preloader"></div>
+                                </div>
+                                <ul class="gallery__list">
+                                    <li class="gallery__item"><a href="/assets/images/slideshow2.jpg" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow2.jpg)"></div></a></li>
+                                    <li class="gallery__item"><a href="/assets/images/slideshow.png" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow.png)"></div></a></li>
+                                    <li class="gallery__item"><a href="/assets/images/slideshow3.jpg" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow3.jpg)"></div></a></li>
+                                </ul>
+                            </div>
+                            <div class="project__content-right">
+                                <div class="project__content-name">ПРОЕКТ ИНЖЕНЕРИИ</div>
+                                <div class="project__content-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur reprehenderit rem, sapiente, nulla, sint aut repellendus quisquam dignissimos ab sequi impedit, placeat corporis unde porro itaque at quia ipsa accusantium?</p>
+                                <p>Dolore praesentium architecto at, autem vitae in perspiciatis eum. Nihil expedita iusto dolor, praesentium aperiam voluptatem qui nobis suscipit incidunt, nisi assumenda nulla laboriosam. Eveniet unde pariatur earum? Laudantium, accusamus.</p>
+                                <p>Molestias repellat tenetur molestiae aperiam sequi minima quia voluptas, quibusdam voluptatum impedit natus numquam, dicta tempora earum sunt neque animi aliquid velit mollitia iste quasi nihil illum nobis cum laborum.</p></div>
+                                <table class="project__table table">
+                                    <tr class="table__row">
+                                        <td class="table__column">Город</td>
+                                        <td class="table__column">Москва</td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__column">Площадь</td>
+                                        <td class="table__column">800м<sup>2</sup></td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__column">Сроки проектирования</td>
+                                        <td class="table__column">3 месяца</td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__column">Сроки работ</td>
+                                        <td class="table__column">4 месяца</td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__column">Стоимость проекта</td>
+                                        <td class="table__column">327 000 Р.</td>
+                                    </tr>
+                                    <tr class="table__row">
+                                        <td class="table__column">Стоимость работ</td>
+                                        <td class="table__column">1 870 000 Р.</td>
+                                    </tr>
+                                </table>
+                                <a href="#" class="project__button">
+                                    <svg class="project__button-icon" width="16" height="16" fill="white">
+                                        <use xlink:href="/assets/images/icons/sprite.svg#icon-cursor"></use>
+                                    </svg>
+                                    <div class="project__button-text">ПОСМОТРЕТЬ ВСЕ РАБОТЫ</div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+                        <section class="style">
                 <div class="style__triangle-up"></div>
                 <div class="style__content">
                     <div class="container">
@@ -222,163 +398,6 @@
                         </figure>
                     </div>
                     <div class="style__separate"></div>
-            <section class="project">
-                <div class="container">
-                    <div class="project__header">
-                        <div class="project__header-left">
-                            <h2 class="project__title">Реализованные проекты</h2>
-                        </div>
-                        <div class="project__header-right">
-                            <ul class="project__list">
-                                <li class="project__item active">
-                                    <a class="project__link" href="#tab_1">ИНТЕРЬЕР</a>
-                                </li>
-                                <li class="project__item">
-                                    <a class="project__link" href="#tab_2">МЕБЕЛЬ</a>
-                                </li>
-                                <li class="project__item">
-                                    <a class="project__link" href="#tab_3">ИНЖЕНЕРИЯ</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <ul class="project__content">
-                        <li class="project__content-item active" id="tab_1">
-                            <div class="project__content-left gallery">
-                                <div class="gallery__screen">
-                                    <div class="gallery__photo" style="background-image: url(/assets/images/slideshow2.jpg)"></div>
-                                    <div class="gallery__preloader"></div>
-                                </div>
-                                <ul class="gallery__list">
-                                    <li class="gallery__item"><a href="/assets/images/slideshow.png" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow.png)"></div></a></li>
-                                    <li class="gallery__item"><a href="/assets/images/slideshow2.jpg" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow2.jpg)"></div></a></li>
-                                    <li class="gallery__item"><a href="/assets/images/slideshow3.jpg" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow3.jpg)"></div></a></li>
-                                </ul>
-                            </div>
-                            <div class="project__content-right">
-                                <div class="project__content-name">ПРОЕКТ КВАРТИРЫ</div>
-                                <div class="project__content-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus fugit delectus quae sapiente autem repudiandae vel dolorum, consectetur, ex nesciunt magnam tempora, excepturi non vitae architecto rem quasi. Beatae sunt at minus consectetur temporibus quaerat, recusandae. Illo ratione quia aspernatur cumque dolorum dolor facilis nostrum, repellat, temporibus sunt voluptate beatae.</p>
-                                <p>Totam repudiandae magni minima quaerat explicabo culpa debitis laudantium repellat placeat. Vel sapiente earum delectus illo doloribus quae animi, ratione fuga distinctio! Magnam voluptatum voluptas in praesentium quia numquam asperiores, velit officiis officia dolore quisquam, optio, fuga veritatis sequi blanditiis. Alias ullam laborum quasi nobis, velit officiis aut repellat nihil.</p></div>
-                                <table class="project__table table">
-                                    <tr class="table__row">
-                                        <td class="table__column">Город</td>
-                                        <td class="table__column">Москва</td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__column">Площадь</td>
-                                        <td class="table__column">80м<sup>2</sup></td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__column">Сроки проектирования</td>
-                                        <td class="table__column">1,5 месяца</td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__column">Сроки работ</td>
-                                        <td class="table__column">4 месяца</td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__column">Стоимость проекта</td>
-                                        <td class="table__column">127 000 Р.</td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__column">Стоимость работ</td>
-                                        <td class="table__column">1 270 000 Р.</td>
-                                    </tr>
-                                </table>
-                                <a href="#" class="project__button"><div class="project__button-icon"></div><div class="project__button-text">ПОСМОТРЕТЬ ВСЕ РАБОТЫ</div></a>
-                            </div>
-                        </li>
-                        <li class="project__content-item" id="tab_2">
-                            <div class="project__content-left gallery">
-                                <div class="gallery__screen">
-                                    <div class="gallery__photo" style="background-image: url(/assets/images/slideshow2.jpg)"></div>
-                                    <div class="gallery__preloader"></div>
-                                </div>
-                                <ul class="gallery__list">
-                                    <li class="gallery__item"><a href="/assets/images/slideshow3.jpg" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow3.jpg)"></div></a></li>
-                                    <li class="gallery__item"><a href="/assets/images/slideshow2.jpg" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow2.jpg)"></div></a></li>
-                                    <li class="gallery__item"><a href="/assets/images/slideshow.png" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow.png)"></div></a></li>
-                                </ul>
-                            </div>
-                            <div class="project__content-right">
-                                <div class="project__content-name">Проект Мебели</div>
-                                <div class="project__content-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus consectetur natus, omnis voluptatem sapiente nulla minus odio nisi aspernatur dolorem.</p></div>
-                                <table class="project__table table">
-                                    <tr class="table__row">
-                                        <td class="table__column">Город</td>
-                                        <td class="table__column">Спб</td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__column">Площадь</td>
-                                        <td class="table__column">2м<sup>2</sup></td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__column">Сроки проектирования</td>
-                                        <td class="table__column">1,5 месяца</td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__column">Сроки работ</td>
-                                        <td class="table__column">4 месяца</td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__column">Стоимость проекта</td>
-                                        <td class="table__column">50 000 Р.</td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__column">Стоимость работ</td>
-                                        <td class="table__column">900 000 Р.</td>
-                                    </tr>
-                                </table>
-                                <a href="#" class="project__button"><div class="project__button-icon"></div><div class="project__button-text">ПОСМОТРЕТЬ ВСЕ РАБОТЫ</div></a>
-                            </div>
-                        </li>
-                        <li class="project__content-item" id="tab_3">
-                            <div class="project__content-left gallery">
-                                <div class="gallery__screen">
-                                    <div class="gallery__photo" style="background-image: url(/assets/images/slideshow2.jpg)"></div>
-                                    <div class="gallery__preloader"></div>
-                                </div>
-                                <ul class="gallery__list">
-                                    <li class="gallery__item"><a href="/assets/images/slideshow2.jpg" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow2.jpg)"></div></a></li>
-                                    <li class="gallery__item"><a href="/assets/images/slideshow.png" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow.png)"></div></a></li>
-                                    <li class="gallery__item"><a href="/assets/images/slideshow3.jpg" class="gallery__link"><div class="gallery__image" style="background-image: url(/assets/images/slideshow3.jpg)"></div></a></li>
-                                </ul>
-                            </div>
-                            <div class="project__content-right">
-                                <div class="project__content-name">ПРОЕКТ ИНЖЕНЕРИИ</div>
-                                <div class="project__content-desc"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur reprehenderit rem, sapiente, nulla, sint aut repellendus quisquam dignissimos ab sequi impedit, placeat corporis unde porro itaque at quia ipsa accusantium?</p>
-                                <p>Dolore praesentium architecto at, autem vitae in perspiciatis eum. Nihil expedita iusto dolor, praesentium aperiam voluptatem qui nobis suscipit incidunt, nisi assumenda nulla laboriosam. Eveniet unde pariatur earum? Laudantium, accusamus.</p>
-                                <p>Molestias repellat tenetur molestiae aperiam sequi minima quia voluptas, quibusdam voluptatum impedit natus numquam, dicta tempora earum sunt neque animi aliquid velit mollitia iste quasi nihil illum nobis cum laborum.</p></div>
-                                <table class="project__table table">
-                                    <tr class="table__row">
-                                        <td class="table__column">Город</td>
-                                        <td class="table__column">Москва</td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__column">Площадь</td>
-                                        <td class="table__column">800м<sup>2</sup></td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__column">Сроки проектирования</td>
-                                        <td class="table__column">3 месяца</td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__column">Сроки работ</td>
-                                        <td class="table__column">4 месяца</td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__column">Стоимость проекта</td>
-                                        <td class="table__column">327 000 Р.</td>
-                                    </tr>
-                                    <tr class="table__row">
-                                        <td class="table__column">Стоимость работ</td>
-                                        <td class="table__column">1 870 000 Р.</td>
-                                    </tr>
-                                </table>
-                                <a href="#" class="project__button"><div class="project__button-icon"></div><div class="project__button-text">ПОСМОТРЕТЬ ВСЕ РАБОТЫ</div></a>
-                            </div>
-                        </li>
-                    </ul>
                 </div>
             </section>
             <section class="recommendation">
@@ -431,51 +450,51 @@
                         </div>
                         <ul class="about__features">
                             <li class="about__features-item">
-                                <div class="about__features-icon">
-                                    <img src="/assets/images/icons/about-ico-1.png" alt="icon" class="about__features-ico">
-                                </div>
+                                <svg class="about__features-icon" width="32" height="32" fill="white">
+                                    <use xlink:href="/assets/images/icons/sprite.svg#icon-diploma"></use>
+                                </svg>
                                 <div class="about__features-desc">Имеем все необходимые свидетельства включая СРО</div>
                             </li>
                             <li class="about__features-item">
-                                <div class="about__features-icon">
-                                    <img src="/assets/images/icons/about-ico-2.png" alt="icon" class="about__features-ico">
-                                </div>
+                                <svg class="about__features-icon" width="32" height="32" fill="white">
+                                    <use xlink:href="/assets/images/icons/sprite.svg#icon-company-workers"></use>
+                                </svg>
                                 <div class="about__features-desc">Все специалисты в штате дизайн-студии и мы полностью несем ответственность</div>
                             </li>
                             <li class="about__features-item">
-                                <div class="about__features-icon">
-                                    <img src="/assets/images/icons/about-ico-3.png" alt="icon" class="about__features-ico">
-                                </div>
+                                <svg class="about__features-icon" width="32" height="32" fill="white">
+                                    <use xlink:href="/assets/images/icons/sprite.svg#icon-shield"></use>
+                                </svg>
                                 <div class="about__features-desc">Без подводных камней, даем гарантию на все работы 3 года</div>
                             </li>
                             <li class="about__features-item">
-                                <div class="about__features-icon">
-                                    <img src="/assets/images/icons/about-ico-4.png" alt="icon" class="about__features-ico">
-                                </div>
+                                <svg class="about__features-icon" width="32" height="32" fill="white">
+                                    <use xlink:href="/assets/images/icons/sprite.svg#icon-contract"></use>
+                                </svg>
                                 <div class="about__features-desc">Стоимость и сроки работы строго соблюдаются договором</div>
                             </li>
                             <li class="about__features-item">
-                                <div class="about__features-icon">
-                                    <img src="/assets/images/icons/about-ico-5.png" alt="icon" class="about__features-ico">
-                                </div>
+                                <svg class="about__features-icon" width="32" height="32" fill="white">
+                                    <use xlink:href="/assets/images/icons/sprite.svg#icon-route"></use>
+                                </svg>
                                 <div class="about__features-desc">Делаем качественно и в срок даже если клиент находиться в другом городе</div>
                             </li>
                             <li class="about__features-item">
-                                <div class="about__features-icon">
-                                    <img src="/assets/images/icons/about-ico-6.png" alt="icon" class="about__features-ico">
-                                </div>
+                                <svg class="about__features-icon" width="32" height="32" fill="white">
+                                    <use xlink:href="/assets/images/icons/sprite.svg#icon-bank"></use>
+                                </svg>
                                 <div class="about__features-desc">Принимаем к оплате наличный и безналичный расчет</div>
                             </li>
                             <li class="about__features-item">
-                                <div class="about__features-icon">
-                                    <img src="/assets/images/icons/about-ico-7.png" alt="icon" class="about__features-ico">
-                                </div>
+                                <svg class="about__features-icon" width="32" height="32" fill="white">
+                                    <use xlink:href="/assets/images/icons/sprite.svg#icon-factory"></use>
+                                </svg>
                                 <div class="about__features-desc">Работаем на прямую с производителями строительных и отделочных материалов</div>
                             </li>
                             <li class="about__features-item">
-                                <div class="about__features-icon">
-                                    <img src="/assets/images/icons/about-ico-8.png" alt="icon" class="about__features-ico">
-                                </div>
+                                <svg class="about__features-icon" width="32" height="32" fill="white">
+                                    <use xlink:href="/assets/images/icons/sprite.svg#icon-nightstand"></use>
+                                </svg>
                                 <div class="about__features-desc">Собственное производство мебели с точностью под проект</div>
                             </li>
                         </ul>
@@ -484,27 +503,27 @@
                 <div class="container">
                     <ul class="about__list">
                         <li class="about__item">
-                            <div class="about__icon">
-                                <img src="/assets/images/icons/about-bottom-ico-1.png" alt="icon" class="about__icon-ico">
-                            </div>
+                            <svg class="about__icon" width="64" height="64" fill="black">
+                                <use xlink:href="/assets/images/icons/sprite.svg#icon-winner"></use>
+                            </svg>
                             <div class="about__desc">Все наши сотрудники состоят в штате и имеют полное профильное образование</div>
                         </li>
                         <li class="about__item">
-                            <div class="about__icon">
-                                <img src="/assets/images/icons/about-bottom-ico-2.png" alt="icon" class="about__icon-ico">
-                            </div>
+                            <svg class="about__icon" width="64" height="64" fill="black">
+                                <use xlink:href="/assets/images/icons/sprite.svg#icon-museum"></use>
+                            </svg>
                             <div class="about__desc">Дизайн-студия Шарм деко принимает участие в известных выставках</div>
                         </li>
                         <li class="about__item">
-                            <div class="about__icon">
-                                <img src="/assets/images/icons/about-bottom-ico-3.png" alt="icon" class="about__icon-ico">
-                            </div>
+                            <svg class="about__icon" width="64" height="64" fill="black">
+                                <use xlink:href="/assets/images/icons/sprite.svg#icon-open-magazine"></use>
+                            </svg>
                             <div class="about__desc">Многих из нашах работ публиковались в известных изданиях</div>
                         </li>
                         <li class="about__item">
-                            <div class="about__icon">
-                                <img src="/assets/images/icons/about-bottom-ico-4.png" alt="icon" class="about__icon-ico">
-                            </div>
+                            <svg class="about__icon" width="64" height="64" fill="black">
+                                <use xlink:href="/assets/images/icons/sprite.svg#icon-nightstandlamp"></use>
+                            </svg>
                             <div class="about__desc">Сами изготовливаем мебель любых форматов и форм по любым проектам</div>
                         </li>
                     </ul>
