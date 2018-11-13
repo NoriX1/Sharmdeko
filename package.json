@@ -21,6 +21,7 @@
     "browser-sync": "^2.12.5",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-cheerio": "^0.6.2",
     "gulp-clean": "^0.3.2",
     "gulp-compass": "^2.1.0",
     "gulp-concat": "^2.6.0",
@@ -28,13 +29,17 @@
     "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.1",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^3.2.1",
     "gulp-sourcemaps": "^2.0.0-alpha",
+    "gulp-svg-sprites": "^4.1.2",
+    "gulp-svgmin": "^2.1.0",
     "gulp-uglify": "^1.5.3",
     "gulp-useref": "^3.0.8",
-    "gulp-wiredep": "0.0.0"
+    "gulp-wiredep": "^1.2.0"
   },
   "dependencies": {
+    "cheerio": "^0.6.2",
     "gulp-compass": "^2.1.0",
     "gulp-series": "^1.0.2",
     "npm": "^6.4.1",
