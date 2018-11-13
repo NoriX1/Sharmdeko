@@ -16,26 +16,38 @@
     }
 }
 
-@mixin OpenSans($style: light){
+@mixin OpenSans($style: regular){
 
-    @if $style == light{
-        font-family: 'open_sanscondensed_light';
+    @if $style == regular{
+        font-family: 'OpenSans Regular';
     }
     @if $style == bold{
-        font-family: 'open_sans_condensedbold';
+        font-family: 'OpenSans Bold';
     }
     @if $style == italic{
-        font-family: 'opensans-condlightitalic';
+        font-family: 'OpenSans Italic';
+    }
+    @if $style == boldItalic{
+        font-family: 'OpenSans BoldItalic';
+    }
+    @if $style == light{
+        font-family: 'OpenSans OpenSans Light';
+    }
+    @if $style == semibold{
+        font-family: 'OpenSans SemiBold';
     }
 }
-@mixin Myriad($style: regular){
+@mixin PTSerif($style: regular){
     @if $style == regular{
-        font-family: 'Myriad Pro Regular';
+        font-family: 'PTSerif Regular';
     }
     @if $style == bold{
-        font-family: 'Myriad Pro Bold';
+        font-family: 'PTSerif Bold';
     }
     @if $style == italic{
-        font-family: 'Myriad Pro Italic';
+        font-family: 'PTSerif Italic';
+    }
+     @if $style == boldItalic{
+        font-family: 'PTSerif BoldItalic';
     }
 }

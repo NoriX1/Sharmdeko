@@ -1,48 +1,90 @@
 @font-face {
-    font-family: 'open_sans_condensedbold';
-    src: url('/assets/fonts/opensans-condbold-webfont.woff') format('woff'),
-         url('/assets/fonts/opensans-condbold-webfont.svg#open_sans_condensedbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'open_sanscondensed_light';
-    src: url('/assets/fonts/opensans-condlight-webfont.woff') format('woff'),
-         url('/assets/fonts/opensans-condlight-webfont.svg#open_sanscondensed_light') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'opensans-condlightitalic';
-    src: url('/assets/fonts/opensans-condlightitalic-webfont.woff') format('woff'),
-         url('/assets/fonts/opensans-condlightitalic-webfont.svg#open_sansCnLtIt') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-font-family: 'Myriad Pro Regular';
-src: url('/assets/fonts/MyriadPro-Regular.eot');
-src: url('/assets/fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
-url('/assets/fonts/MyriadPro-Regular.woff') format('woff'),
-url('/assets/fonts/MyriadPro-Regular.ttf') format('truetype');
+font-family: 'OpenSans Regular';
+src: url('/assets/fonts/OpenSans-Regular.eot');
+src: url('/assets/fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+url('/assets/fonts/OpenSans-Regular.woff') format('woff'),
+url('/assets/fonts/OpenSans-Regular.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
 @font-face {
-font-family: 'Myriad Pro Italic';
-src: url('/assets/fonts/MyriadPro-It.eot');
-src: url('/assets/fonts/MyriadPro-It.eot?#iefix') format('embedded-opentype'),
-url('/assets/fonts/MyriadPro-It.woff') format('woff'),
-url('/assets/fonts/MyriadPro-It.ttf') format('truetype');
+font-family: 'OpenSans Italic';
+src: url('/assets/fonts/OpenSans-Italic.eot');
+src: url('/assets/fonts/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
+url('/assets/fonts/OpenSans-Italic.woff') format('woff'),
+url('/assets/fonts/OpenSans-Italic.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
 @font-face {
-font-family: 'Myriad Pro Bold';
-src: url('/assets/fonts/MyriadPro-Bold.eot');
-src: url('/assets/fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
-url('/assets/fonts/MyriadPro-Bold.woff') format('woff'),
-url('/assets/fonts/MyriadPro-Bold.ttf') format('truetype');
+font-family: 'OpenSans Bold';
+src: url('/assets/fonts/OpenSans-Bold.eot');
+src: url('/assets/fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+url('/assets/fonts/OpenSans-Bold.woff') format('woff'),
+url('/assets/fonts/OpenSans-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'OpenSans BoldItalic';
+src: url('/assets/fonts/OpenSans-BoldItalic.eot');
+src: url('/assets/fonts/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+url('/assets/fonts/OpenSans-BoldItalic.woff') format('woff'),
+url('/assets/fonts/OpenSans-BoldItalic.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'OpenSans SemiBold';
+src: url('/assets/fonts/OpenSans-SemiBold.eot');
+src: url('/assets/fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+url('/assets/fonts/OpenSans-SemiBold.woff') format('woff'),
+url('/assets/fonts/OpenSans-SemiBold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'OpenSans Light';
+src: url('/assets/fonts/OpenSans-Light.eot');
+src: url('/assets/fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+url('/assets/fonts/OpenSans-Light.woff') format('woff'),
+url('/assets/fonts/OpenSans-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'PTSerif Regular';
+src: url('/assets/fonts/PTSerif-Regular.eot');
+src: url('/assets/fonts/PTSerif-Regular.eot?#iefix') format('embedded-opentype'),
+url('/assets/fonts/PTSerif-Regular.woff') format('woff'),
+url('/assets/fonts/PTSerif-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'PTSerif Italic';
+src: url('/assets/fonts/PTSerif-Italic.eot');
+src: url('/assets/fonts/PTSerif-Italic.eot?#iefix') format('embedded-opentype'),
+url('/assets/fonts/PTSerif-Italic.woff') format('woff'),
+url('/assets/fonts/PTSerif-Italic.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'PTSerif Bold';
+src: url('/assets/fonts/PTSerif-Bold.eot');
+src: url('/assets/fonts/PTSerif-Bold.eot?#iefix') format('embedded-opentype'),
+url('/assets/fonts/PTSerif-Bold.woff') format('woff'),
+url('/assets/fonts/PTSerif-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'PTSerif BoldItalic';
+src: url('/assets/fonts/PTSerif-BoldItalic.eot');
+src: url('/assets/fonts/PTSerif-BoldItalic.eot?#iefix') format('embedded-opentype'),
+url('/assets/fonts/PTSerif-BoldItalic.woff') format('woff'),
+url('/assets/fonts/PTSerif-BoldItalic.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
