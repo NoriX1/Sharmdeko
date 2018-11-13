@@ -121,7 +121,7 @@ gulp.task('browser-sync', function () {
 });
 //Перемешение наших локальных файлов в папку build
 gulp.task('assets', function () {
-    return gulp.src('./src/assets/**/*.*')
+    return gulp.src(['!./src/assets/images/icons/**/*','./src/assets/**/*.*'])
         .pipe(gulp.dest('./build/assets'));
 });
 

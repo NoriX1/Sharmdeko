@@ -61,12 +61,7 @@ body{
     width: 43px;
     background-color: $yellow;
     content: "";
-}
-.header__phone-image{
-    max-width: 100%;
-    position: relative;
-    left: 9px;
-    top: 9px;
+    padding: 8px;
 }
 .header__number{
     display: inline-block;
