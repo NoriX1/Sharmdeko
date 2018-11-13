@@ -44,11 +44,15 @@
     margin-bottom: 30px;
 }
 .about__title{
-    font-size: 48px;
-    max-width: 350px;
+    @include OpenSans(semibold);
+    text-transform: uppercase;
+    font-size: 40px;
+    max-width: 340px;
 }
 .about__desc{
-    font-size: 24px;
+    margin-top: 15px;
+    line-height: 1.5;
+    font-size: 18px;
     max-width: 580px;
 }
 .about__features{
@@ -56,13 +60,14 @@
     flex-wrap: wrap;
     align-items: flex-start;
     align-content: space-between;
+    margin-left: 50px; 
     margin-bottom: 280px;
 }
 .about__features-item{
     width: 265px;
     margin-bottom: 50px;
     font-size: 18px;
-    @include Myriad(italic);
+    @include PTSerif(italic);
     margin-right: 15px;
     border-left: 5px solid $yellow;
     padding-left: 10px;

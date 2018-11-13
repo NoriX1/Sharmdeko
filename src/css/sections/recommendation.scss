@@ -4,8 +4,9 @@
     margin-bottom: 30px;
 }
 .recommendation__title{
+    @include OpenSans(semibold);
     color: $black;
-    font-size: 48px;
+    font-size: 40px;
     max-width: 660px;
     margin-bottom: 50px;
 }
@@ -23,10 +24,9 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     padding: 30px;
-    border: 5px solid transparent;
-    &:nth-child(even){
-        border: 5px solid #e2e2e2;
-    }
+}
+.recommendation__item:hover{
+    border: 5px solid #e2e2e2;  
 }
 .recommendation__photo{
     display: block;
@@ -60,7 +60,7 @@
 .reccomendation__desc{
     font-size: 18px;
     margin-bottom: 15px;
-    @include Myriad(italic);
+    @include PTSerif(italic);
 }
 .recommendation__about{
     width: 90%;

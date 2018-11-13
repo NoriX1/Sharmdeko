@@ -8,10 +8,10 @@ $grey: #494949;
 $black: #262626;
 
 // layout
+@import "_misc/fonts";
 @import "_misc/mixins";
 @import "_misc/normalize";
 @import "_misc/adjustment";
-@import "_misc/fonts";
 
 // styles
 @import "sections/header";

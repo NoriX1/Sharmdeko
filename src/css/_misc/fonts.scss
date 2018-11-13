@@ -14,7 +14,7 @@ src: url('/assets/fonts/OpenSans-Italic.eot?#iefix') format('embedded-opentype')
 url('/assets/fonts/OpenSans-Italic.woff') format('woff'),
 url('/assets/fonts/OpenSans-Italic.ttf') format('truetype');
 font-weight: normal;
-font-style: normal;
+font-style: italic;
 }
 @font-face {
 font-family: 'OpenSans Bold';
@@ -22,7 +22,7 @@ src: url('/assets/fonts/OpenSans-Bold.eot');
 src: url('/assets/fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
 url('/assets/fonts/OpenSans-Bold.woff') format('woff'),
 url('/assets/fonts/OpenSans-Bold.ttf') format('truetype');
-font-weight: normal;
+font-weight: bold;
 font-style: normal;
 }
 @font-face {
@@ -31,8 +31,8 @@ src: url('/assets/fonts/OpenSans-BoldItalic.eot');
 src: url('/assets/fonts/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
 url('/assets/fonts/OpenSans-BoldItalic.woff') format('woff'),
 url('/assets/fonts/OpenSans-BoldItalic.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+font-weight: bold;
+font-style: italic;
 }
 @font-face {
 font-family: 'OpenSans SemiBold';
@@ -49,7 +49,7 @@ src: url('/assets/fonts/OpenSans-Light.eot');
 src: url('/assets/fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
 url('/assets/fonts/OpenSans-Light.woff') format('woff'),
 url('/assets/fonts/OpenSans-Light.ttf') format('truetype');
-font-weight: normal;
+font-weight: lighter;
 font-style: normal;
 }
 @font-face {
@@ -68,7 +68,7 @@ src: url('/assets/fonts/PTSerif-Italic.eot?#iefix') format('embedded-opentype'),
 url('/assets/fonts/PTSerif-Italic.woff') format('woff'),
 url('/assets/fonts/PTSerif-Italic.ttf') format('truetype');
 font-weight: normal;
-font-style: normal;
+font-style: italic;
 }
 @font-face {
 font-family: 'PTSerif Bold';
@@ -76,7 +76,7 @@ src: url('/assets/fonts/PTSerif-Bold.eot');
 src: url('/assets/fonts/PTSerif-Bold.eot?#iefix') format('embedded-opentype'),
 url('/assets/fonts/PTSerif-Bold.woff') format('woff'),
 url('/assets/fonts/PTSerif-Bold.ttf') format('truetype');
-font-weight: normal;
+font-weight: bold;
 font-style: normal;
 }
 @font-face {
@@ -85,6 +85,6 @@ src: url('/assets/fonts/PTSerif-BoldItalic.eot');
 src: url('/assets/fonts/PTSerif-BoldItalic.eot?#iefix') format('embedded-opentype'),
 url('/assets/fonts/PTSerif-BoldItalic.woff') format('woff'),
 url('/assets/fonts/PTSerif-BoldItalic.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+font-weight: bold;
+font-style: italic;
 }
