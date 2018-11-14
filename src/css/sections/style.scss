@@ -1,6 +1,9 @@
 .style {
     position: relative;
     margin-bottom: 50px;
+    .container{
+        @extend %clearfix;
+    }
 }
 
 .style__triangle-up {
@@ -67,6 +70,7 @@
     position: absolute;
     color: white;
     bottom: 10px;
+    left: 0;
     font-size: 32px;
     padding: 20px 20px;
     z-index: 3;
