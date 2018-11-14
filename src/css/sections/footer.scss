@@ -29,7 +29,7 @@
     width: 200px;
 }
 .contacts__title{
-    @include OpenSans(semibold);
+    @include Roboto(bold);
     font-size: 40px;
 }
 .contacts__adress-title{

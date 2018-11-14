@@ -44,7 +44,7 @@
     margin-bottom: 30px;
 }
 .about__title{
-    @include OpenSans(semibold);
+    @include Roboto();
     text-transform: uppercase;
     font-size: 40px;
     max-width: 340px;

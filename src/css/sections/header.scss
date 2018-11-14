@@ -32,14 +32,14 @@
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    max-width: 170px;
+    max-width: 240px;
     @include PTSerif();
     color: white;
     &::before{
         display: block;
         content: "";
         position: absolute;
-        height: 43px;
+        height: 100%;
         width: 1px;
         background-color: white;
         top: 3px;
