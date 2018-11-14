@@ -30,7 +30,7 @@
 .style__desc {
     float: right;
     color: white;
-    max-width: 400px;
+    max-width: 450px;
     margin-right: 50px;
     margin-bottom: 50px;
     text-align: right;
@@ -99,7 +99,7 @@
 }
 
 .style__order_btn {
-    @include OpenSans(semibold);
+    @include Roboto(bold);
     display: flex;
     flex-grow: 1;
     justify-content: center;

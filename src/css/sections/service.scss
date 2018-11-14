@@ -29,7 +29,7 @@
     width: 100%;
 }
 .service__title{
-    @include OpenSans(regular);
+    @include Roboto(regular);
     margin-bottom: 15px;
     font-size: 18px;
 }

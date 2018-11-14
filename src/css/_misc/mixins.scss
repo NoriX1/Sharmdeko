@@ -16,27 +16,6 @@
     }
 }
 
-@mixin OpenSans($style: regular){
-
-    @if $style == regular{
-        font-family: 'OpenSans Regular';
-    }
-    @if $style == bold{
-        font-family: 'OpenSans Bold';
-    }
-    @if $style == italic{
-        font-family: 'OpenSans Italic';
-    }
-    @if $style == boldItalic{
-        font-family: 'OpenSans BoldItalic';
-    }
-    @if $style == light{
-        font-family: 'OpenSans Light';
-    }
-    @if $style == semibold{
-        font-family: 'OpenSans SemiBold';
-    }
-}
 @mixin PTSerif($style: regular){
     @if $style == regular{
         font-family: 'PTSerif Regular';
@@ -49,5 +28,25 @@
     }
      @if $style == boldItalic{
         font-family: 'PTSerif BoldItalic';
+    }
+}
+@mixin Roboto($style: regular){
+    @if $style == regular{
+        font-family: 'roboto_condensedregular';
+    }
+    @if $style == bold{
+        font-family: 'roboto_condensedbold';
+    }
+    @if $style == italic{
+        font-family: 'roboto_condenseditalic';
+    }
+     @if $style == boldItalic{
+        font-family: 'roboto_condensedbold_italic';
+    }
+    @if $style == lightItalic{
+        font-family: 'roboto_condensedlight_italic';
+    }
+    @if $style == light{
+        font-family: 'roboto_condensedlight';
     }
 }

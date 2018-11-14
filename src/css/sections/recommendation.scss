@@ -4,11 +4,12 @@
     margin-bottom: 30px;
 }
 .recommendation__title{
-    @include OpenSans(semibold);
+    @include Roboto(regular);
     color: $black;
     font-size: 40px;
-    max-width: 660px;
-    margin-bottom: 50px;
+    max-width: 580px;
+    margin-bottom: 30px;
+    font-weight: 500;
 }
 .recommendation__list{
     display: flex;
@@ -24,6 +25,8 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     padding: 30px;
+    border: 5px solid transparent;
+    transition: border .5s;
 }
 .recommendation__item:hover{
     border: 5px solid #e2e2e2;  
