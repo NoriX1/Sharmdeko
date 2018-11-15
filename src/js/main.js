@@ -2,7 +2,9 @@ $(document).ready(function(){
     (function(){
         var settings = {
             speed: 1000,
-            controls: false
+            controls: false,
+            touchEnabled : false,
+            auto: true
         }
         var slider = $(".slider__list").bxSlider(settings);
     })();
