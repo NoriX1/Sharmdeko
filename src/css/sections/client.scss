@@ -1,0 +1,27 @@
+.client{
+    border-top: 45px solid $yellow;
+    border-bottom: 45px solid $yellow;
+    background-color: $black;
+    text-align: center;
+}
+.client__title{
+    font-size: 42px;
+    color:white;
+}
+.client__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.client__item{
+    height: 65px;
+    min-width: 100px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.client__logo{
+    max-height: 100%;
+}

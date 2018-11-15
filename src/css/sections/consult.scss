@@ -93,6 +93,7 @@
     color:white;
     margin-bottom: 20px;
     font-weight: normal;
+    resize: none;
     &::placeholder{
         opacity: 1;
     }
@@ -103,6 +104,7 @@
     background-color: $yellow;
     border: none;
     transition: background .2s;
+    cursor: pointer;
     &:hover{
         background-color: #cc9a00;
     }
