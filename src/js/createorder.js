@@ -1,5 +1,14 @@
 $(document).ready(function(){
     (function(){
+        $(".sitecover__link").on("click", function(e){
+            e.preventDefault();
+            var current = $(this);
+            var link = current.attr('href');
+            var top = $(link).offset().top;
+            $('body,html').animate({scrollTop: top}, 500);
+        })
+    })();
+    (function(){
         $(".style__order_btn").on("click", function(e){
             e.preventDefault();
             var style = "";

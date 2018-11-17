@@ -27,6 +27,7 @@
     display: block;
     max-width: 360px;
     font-size: 40px;
+    text-transform: uppercase;
 }
 .consult__desc{
     display: block;
@@ -64,6 +65,7 @@
     @include Roboto(bold);
     font-size: 18px;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 .consult__description{
     font-size: 18px;
@@ -82,6 +84,7 @@
     @include Roboto();
     font-size: 40px;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 .form__desc{
     font-size: 20px;
