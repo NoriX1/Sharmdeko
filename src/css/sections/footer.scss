@@ -31,6 +31,7 @@
 .contacts__title{
     @include Roboto(bold);
     font-size: 40px;
+    text-transform: uppercase;
 }
 .contacts__adress-title{
     @include PTSerif(bold);
