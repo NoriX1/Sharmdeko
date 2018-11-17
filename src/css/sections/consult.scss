@@ -42,17 +42,23 @@
     justify-content: space-around;
     align-content: flex-start;
     margin-bottom: 100px;
+    padding-left: 0;
+    list-style-type: none;
+    counter-reset:  item;
 }
 .consult__item{
     width: 280px;
     border-left: 5px solid $yellow;
     margin-bottom: 50px;
     padding-left: 10px;
-}
-.consult__number{
-    font-size: 46px;
+    &::before{
+        display: block;
+        content: counter(item);
+        counter-increment: item;
+        font-size: 46px;
     color: $yellow;
     @include PTSerif(italic);
+    }
 }
 .consult__name{
     @include Roboto(bold);
