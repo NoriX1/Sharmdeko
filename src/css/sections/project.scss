@@ -24,7 +24,7 @@
 }
 .project__item{
     display: inline-block;
-    width: 160px;
+    min-width: 160px;
     &.active, &:hover{
         background-color: $yellow;
         .project__link{
@@ -41,6 +41,7 @@
     text-decoration: none;
     color:$yellow;
     text-transform: uppercase;
+    padding: 0px 10px;
 }
 .project__content-item{
     justify-content: space-between;

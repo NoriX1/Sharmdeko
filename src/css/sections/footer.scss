@@ -75,13 +75,9 @@
     width: 94px;
     height: 94px;
     opacity: .8;
+    background-position: center;
+    background-repeat: no-repeat;
     &:hover{
         opacity: 1;
     }
-}
-.social__link-vimeo{
-    background: url(/assets/images/logo__vimeo.png) center center no-repeat;
-}
-.social__link-insta{
-    background: url(/assets/images/logo__insta.png) center center no-repeat;
 }
