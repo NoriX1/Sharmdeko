@@ -1,0 +1,113 @@
+.sitecover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 800px !important;
+    position: relative;
+}
+
+.site-cover__textblock {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-right: 5%;
+    top: 40%;
+    z-index: 2;
+}
+
+.sitecover__title {
+    font-size: 75px;
+    line-height: 1.2;
+    color: white;
+}
+
+.sitecover__desc {
+    font-size: 28px;
+    color: white;
+}
+
+.sitecover__link {
+    display: block;
+    margin-top: 100px;
+}
+
+.projects {
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+.projects__content {
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+}
+
+.projects__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projects__header-left {
+    width: 49%;
+}
+
+.projects__header-right {
+    text-align: center;
+}
+
+.projects__title {
+    @include Roboto(semibold);
+    text-transform: uppercase;
+    font-size: 36px;
+    color: $black;
+}
+
+.projects__list {
+    margin-top: 15px;
+}
+
+.projects__link {
+    @include Roboto(bold);
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    border: 4px solid $yellow;
+    text-decoration: none;
+    color: $yellow;
+}
+
+.projects__content-left {
+    width: 52%;
+}
+
+.projects__content-right {
+    width: 47%;
+    @extend %clearfix;
+}
+
+.projects__name {
+    @include Roboto();
+    text-transform: uppercase;
+    font-size: 28px;
+    color: $grey;
+}
+
+.projects__content-desc {
+    font-size: 18px;
+    color: $grey;
+    padding-bottom: 15px;
+}
+
+.projects__table {
+    width: 480px;
+    color: $grey;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.projects__separate {
+    background-color: $yellow;
+    height: 50px;
+}
