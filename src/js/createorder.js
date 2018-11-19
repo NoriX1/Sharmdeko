@@ -14,7 +14,7 @@ $(document).ready(function(){
             var style = "";
             var current = $(this);
             var link = current.attr('href');
-            var form  = $(".consult__form");
+            var form  = $(".wpcf7-form");
             var top = $(form).offset().top-60;
             switch(link){
                 case "#art-deco":{

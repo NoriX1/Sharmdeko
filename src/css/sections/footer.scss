@@ -81,3 +81,22 @@
         opacity: 1;
     }
 }
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 14px;
+    align-items: center;
+    height: 65px;
+    @include Roboto();
+}
+.copyright__authors{
+    text-decoration: none;
+    color:$black;
+    &:hover{
+        color:black;
+    }
+}
+.copyright__text, .copyright__authors{
+    margin-right: 50px;
+}
