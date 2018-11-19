@@ -4,7 +4,8 @@ $(document).ready(function(){
             speed: 1000,
             controls: false,
             touchEnabled : false,
-            auto: true
+            auto: true,
+            pause: 10000
         }
         var slider = $(".slider__list").bxSlider(settings);
     })();
