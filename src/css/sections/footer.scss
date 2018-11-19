@@ -41,10 +41,13 @@
     margin-bottom: 10px;
 }
 .contacts__number{
+    display: block;
     font-size: 20px;
     @include PTSerif(italic);
     font-weight: bold;
     margin-bottom: 5px;
+    text-decoration: none;
+    color: $black;
 }
 .contacts__mail{
     @include PTSerif(italic);
@@ -77,6 +80,7 @@
     opacity: .8;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
     &:hover{
         opacity: 1;
     }

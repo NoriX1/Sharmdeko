@@ -1,6 +1,5 @@
 .style {
     position: relative;
-    margin-bottom: 100px;
     .container{
         @extend %clearfix;
     }
@@ -17,7 +16,6 @@
 .style__content {
     padding-top: 30px;
     background-color: $black;
-    height: 900px;
 }
 
 .style__title {
@@ -95,6 +93,7 @@
     background-color: rgba($yellow, 0.8);
     backface-visibility: hidden;
     transition: transform 0.8s, opacity 0.8s;
+    text-align: center;
 }
 
 .style__imgdesc {
@@ -104,10 +103,11 @@
 }
 
 .style__order_btn {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     @include Roboto(bold);
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px 0px;
