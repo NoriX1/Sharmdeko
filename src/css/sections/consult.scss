@@ -71,7 +71,7 @@
     font-size: 18px;
     @include PTSerif(italic);
 }
-.consult__form{
+.consult__form, .wpcf7-form{
     float: right;
     color:white;
     border: 10px solid $yellow;
@@ -103,9 +103,13 @@
     margin-bottom: 20px;
     font-weight: normal;
     resize: none;
+    max-height: 110px;
     &::placeholder{
         opacity: 1;
     }
+}
+.screen-reader-response{
+    display: none;
 }
 .form__submit{
     color:white;
