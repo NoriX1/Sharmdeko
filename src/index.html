@@ -36,14 +36,27 @@
                         <li class="menu__item"><a href="#footer" class="menu__link">Контакты</a></li>
                     </ul>
                 </nav>
-                <a  href="tel:+74996546041" class="header__right">
+                <div class="header__right">
                     <div class="header__phone">
                         <svg class="header__phone-svg" width="24" height="24" fill="white">
                             <use xlink:href="/assets/images/icons/sprite.svg#icon-phone"></use>
                         </svg>
                     </div>
-                    <div class="header__number">+7 (499) 654 60 41</div>
-                </a>
+                    <div class="header__number">Заказать звонок</div>
+                    <form action="" class="header__form form">
+                        <svg class="form__close" width="24" height="24" fill="#ffc000">
+                            <use xlink:href="/assets/images/icons/sprite.svg#icon-cancel"></use>
+                        </svg>
+                        <div class="form__title" id="consult">Оставьте свой номер</div>
+                        <div class="form__desc">И мы свяжемся с вами в ближайшее время</div>
+                        <input type="text" class="form__input" placeholder="Ваше имя">
+                        <input type="text" class="form__input" placeholder="Контактный номер телефона">
+                        <button class="form__submit" type="submit">Отправить заявку</button>
+                        <div class="form__result" style="display: none">
+                            <div class="result__message">Сообщение отправлено!</div>
+                        </div>
+                    </form>
+                </div>
             </div>
             <div class="header__fixed">
                 <div class="container">
@@ -63,7 +76,7 @@
                             <li class="menu__item"><a href="#footer" class="menu__link">Контакты</a></li>
                         </ul>
                     </nav>
-                    <a  href="tel:+74996546041" class="header__right">
+                    <a href="tel:+74996546041" class="header__right">
                         <div class="header__phone">
                             <svg class="header__phone-svg" width="24" height="24" fill="white">
                                 <use xlink:href="/assets/images/icons/sprite.svg#icon-phone"></use>
@@ -675,6 +688,7 @@
     <script src="/js/tabs.js"></script>
     <script src="/js/createorder.js"></script>
     <script src="/js/scroll.js"></script>
+    <script src="/js/form.js"></script>
     <!-- endbuild -->
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 </body>

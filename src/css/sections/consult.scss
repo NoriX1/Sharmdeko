@@ -71,7 +71,7 @@
     font-size: 18px;
     @include PTSerif(italic);
 }
-.consult__form, .wpcf7-form{
+.form, .wpcf7-form{
     float: right;
     color:white;
     border: 10px solid $yellow;
