@@ -26,22 +26,74 @@
                     </a>
                     <div class="header__desc">Дизайнерские и архитектурные решения для Вашей жизни</div>
                 </div>
-                <a  href="tel:+74996546041" class="header__right">
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#project" class="menu__link">Реализованные проекты</a></li>
+                        <li class="menu__item"><a href="#style" class="menu__link">Стиль</a></li>
+                        <li class="menu__item"><a href="#recommendation" class="menu__link">Рекомендации от клиентов</a></li>
+                        <li class="menu__item"><a href="#about" class="menu__link">О нас</a></li>
+                        <li class="menu__item"><a href="#consult" class="menu__link">Получить консультацию</a></li>
+                        <li class="menu__item"><a href="#footer" class="menu__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header__right">
                     <div class="header__phone">
                         <svg class="header__phone-svg" width="24" height="24" fill="white">
                             <use xlink:href="/assets/images/icons/sprite.svg#icon-phone"></use>
                         </svg>
                     </div>
-                    <div class="header__number">+7 (499) 654 60 41</div>
-                </a>
+                    <div class="header__number">Заказать звонок</div>
+                    <form action="" class="header__form form">
+                        <svg class="form__close" width="24" height="24" fill="#ffc000">
+                            <use xlink:href="/assets/images/icons/sprite.svg#icon-cancel"></use>
+                        </svg>
+                        <div class="form__title" id="consult">Оставьте свой номер</div>
+                        <div class="form__desc">И мы свяжемся с вами в ближайшее время</div>
+                        <input type="text" class="form__input" placeholder="Ваше имя">
+                        <input type="text" class="form__input" placeholder="Контактный номер телефона">
+                        <button class="form__submit" type="submit">Отправить заявку</button>
+                        <div class="form__result" style="display: none">
+                            <div class="result__message">Сообщение отправлено!</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="header__fixed">
+                <div class="container">
+                    <div class="header__left">
+                        <a class="logo" href="#">
+                            <img src="assets/images/logo.png" alt="logo" class="logo__image">
+                        </a>
+                        <div class="header__desc">Дизайнерские и архитектурные решения для Вашей жизни</div>
+                    </div>
+                    <nav class="header__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="#project" class="menu__link">Реализованные проекты</a></li>
+                            <li class="menu__item"><a href="#style" class="menu__link">Стиль</a></li>
+                            <li class="menu__item"><a href="#recommendation" class="menu__link">Рекомендации от клиентов</a></li>
+                            <li class="menu__item"><a href="#about" class="menu__link">О нас</a></li>
+                            <li class="menu__item"><a href="#consult" class="menu__link">Получить консультацию</a></li>
+                            <li class="menu__item"><a href="#footer" class="menu__link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <a href="tel:+74996546041" class="header__right">
+                        <div class="header__phone">
+                            <svg class="header__phone-svg" width="24" height="24" fill="white">
+                                <use xlink:href="/assets/images/icons/sprite.svg#icon-phone"></use>
+                            </svg>
+                        </div>
+                        <div class="header__number">+7 (499) 654 60 41</div>
+                    </a>
+                </div>
             </div>
         </header>
         <main class="content">
             <section class="slider">
+                <h1 class="slider__header"></h1>
                 <ul class="slider__list">
                     <li class="slider__item" style="background-image: url(/assets/images/sliderimage.png);">
                         <div class="container">
-                            <h1 class="slider__title">Дизайн проекты жилых помещений</h1>
+                            <div class="slider__title">Дизайн проекты жилых помещений</div>
                             <div class="slider__desc">Дизайн-студия интерьеров мебели</div>
                             <ul class="slider__feature">
                                 <li class="feature__item">Площадь до 300м<sup>2</sup></li>
@@ -117,7 +169,7 @@
                 <div class="container">
                     <div class="project__header">
                         <div class="project__header-left">
-                            <h2 class="project__title">Реализованные проекты</h2>
+                            <h2 class="project__title"  id="project">Реализованные проекты</h2>
                         </div>
                         <div class="project__header-right">
                             <ul class="project__list">
@@ -291,7 +343,7 @@
                 <div class="style__triangle-up"></div>
                 <div class="style__content">
                     <div class="container">
-                        <h2 class="style__title">Выберите стиль вашего будущего интерьера</h2>
+                        <h2 class="style__title" id="style">Выберите стиль вашего будущего интерьера</h2>
                         <div class="style__desc"> Ознакомьтесь со стилями и на основе понравившегося мы разработаем индивидуальный дизайн-проект для Вашего дома, квартиры или коммерческой недвижимости.
                         </div>
                     </div>
@@ -401,7 +453,7 @@
             </section>
             <section class="recommendation">
                 <div class="container">
-                    <h2 class="recommendation__title">РЕКОМЕНДАЦИИ ПОЛУЧЕННЫЕ ОТ НАШИХ КЛИЕНТОВ</h2>
+                    <h2 class="recommendation__title"  id="recommendation">РЕКОМЕНДАЦИИ ПОЛУЧЕННЫЕ ОТ НАШИХ КЛИЕНТОВ</h2>
                     <ul class="recommendation__list">
                         <li class="recommendation__item">
                             <div class="recommendation__photo" style="background-image: url(/assets/images/photo1.png)"></div>
@@ -444,7 +496,7 @@
                 <div class="about__content">
                     <div class="container clearfix">
                         <div class="about__header">
-                            <h2 class="about__title">КОРОТКО О ШАРМ ДЕКО</h2>
+                            <h2 class="about__title"  id="about">КОРОТКО О ШАРМ ДЕКО</h2>
                             <div class="about__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis officiis soluta repellendus impedit cum, quas rem molestias reiciendis amet aut!</div>
                         </div>
                         <ul class="about__features">
@@ -536,7 +588,6 @@
                     </div>
                     <ol class="consult__list">
                         <li class="consult__item">
-                            
                             <div class="consult__name">ЗАМЕР ОБЪЕКТА</div>
                             <div class="consult__description">Снимем и зафиксируем все необходимые размеры проекта</div>
                         </li>
@@ -570,7 +621,7 @@
                         </li>
                     </ol>
                     <form action="" class="consult__form form">
-                        <div class="form__title">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
+                        <div class="form__title" id="consult">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
                         <div class="form__desc">Оставьте свои контактные данные и мы дадим подробную консультацию Бесплатно</div>
                         <input type="text" class="form__input" placeholder="Ваше имя">
                         <input type="text" class="form__input" placeholder="Контактный номер телефона">
@@ -601,7 +652,7 @@
             </section>
         </main>
     </div>
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="footer__map" id=map></div>
         <div class="footer__contacts">
             <div class="contacts__left">
@@ -636,6 +687,8 @@
     <script src="/js/slideshow.js"></script>
     <script src="/js/tabs.js"></script>
     <script src="/js/createorder.js"></script>
+    <script src="/js/scroll.js"></script>
+    <script src="/js/form.js"></script>
     <!-- endbuild -->
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 </body>

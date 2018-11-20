@@ -8,9 +8,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
 }
 .header__right{
     text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    &:hover{
+        .header__number{
+            border: 2px solid $yellow;
+        }
+    }
 }
 .logo{
     position: relative;
@@ -47,8 +55,6 @@
         background-color: white;
         top: 3px;
         left: -13px;
-
-
     }
 }
 .logo__image{
@@ -72,4 +78,93 @@
     color: white;
     background-color: rgba(38,38,38, .7);
     padding: 2px 14px;
+    border: 2px solid transparent;
+    transition: border .3s;
+}
+.menu{
+    width: 400px;
+}
+.menu__list{
+    max-height: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.menu__item{
+    display: inline-block;
+    margin-right: 50px;
+    &:nth-last-child(-n+3){
+        margin-right: 0;
+    }
+}
+.menu__link{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    transition: color .2s;
+    &:hover{
+        color: $yellow;
+        text-decoration: underline;
+    }
+}
+.header__fixed{
+    position: fixed;
+    top: -200px;
+    left: 0;
+    right: 0;
+    background-color: $black;
+    padding: 10px 0;
+    transition: top .3s;
+    .logo{
+        width: 57px;
+        &::before{
+            width: 36px;
+            height: 36px;
+        }
+    }
+    &.active{
+        top: 0;
+    }
+}
+.header__fixed .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.header__right{
+   .wpcf7-form,.header__form{
+       position: fixed;
+       margin-top: 20px;
+       right: 70px;
+       width: 400px !important;
+       cursor: default;
+       display: none;
+       min-height: inherit;
+       padding: 35px;
+       padding-top: 15px;
+       padding-bottom: 10px;
+        .form__title{
+           font-size: 32px;
+        }
+        .form__desc{
+           font-size: 16px;
+           margin-bottom: 30px;
+        }
+        .form__input{
+           margin-bottom: 20px;
+        }
+    }
+}
+div.wpcf7-response-output{
+    margin: 0 !important;
+    border: 2px solid $yellow !important;
+}
+.form__close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
 }
