@@ -5,8 +5,8 @@ $(document).ready(function(){
             var style = "";
             var current = $(this);
             var link = current.attr('href');
-            var form  = $(".wpcf7-form");
-            var top = $(form).offset().top-60;
+            var form  = $("#consult");
+            var top = $(form).offset().top-135;
             switch(link){
                 case "#art-deco":{
                     style = "стиле арт-деко.";

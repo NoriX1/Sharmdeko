@@ -1,0 +1,43 @@
+.price{
+    text-align: center;
+    @include Roboto();
+    margin-bottom: 70px;
+}
+.price__title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.price__title-lower{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.price__table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-bottom: 80px;
+}
+.price__row{
+    @include PTSerif();
+        &:nth-child(even){
+            .price__column:nth-child(even){
+                background-color: $yellow;
+            }
+            .price__column:nth-child(odd){
+                background-color: #ffae00;
+            }
+    }
+}
+.price__column,.price__header{
+    height: 100px;
+    padding: 20px 20px;
+    max-width: 260px;
+}
+.price__header{
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 20px;
+    vertical-align: top;
+    height: 85px;
+}
