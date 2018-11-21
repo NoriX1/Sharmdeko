@@ -32,6 +32,9 @@
     background-color: rgba(38,38,38, .7);
     background-blend-mode: darken;
     margin-bottom: 15px;
+    @include ie11{
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ),url(/assets/images/sliderimage.png) !important;
+    }
 }
 .slider__title{
     @include Roboto();
