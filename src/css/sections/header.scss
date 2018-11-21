@@ -3,6 +3,9 @@
     margin-bottom: -150px;
     position: sticky;
     z-index: 1000;
+    @include ie11{
+        position: relative;
+    }
 }
 .header .container{
     display: flex;
@@ -91,6 +94,9 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
+    @include ie11{
+        height: 70px;
+    }
 }
 .menu__item{
     display: inline-block;
@@ -126,6 +132,9 @@
     }
     &.active{
         top: 0;
+        @include ie11{
+            z-index: 1000;
+        }
     }
 }
 .header__fixed .container{
@@ -156,6 +165,9 @@
         .form__input{
            margin-bottom: 20px;
         }
+       @include ie11{
+           z-index: 1000;
+       }
     }
 }
 div.wpcf7-response-output{
