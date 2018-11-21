@@ -25,6 +25,7 @@
 .project__item{
     display: inline-block;
     min-width: 160px;
+    margin-right: 5px;
     &.active, &:hover{
         background-color: $yellow;
         .project__link{
