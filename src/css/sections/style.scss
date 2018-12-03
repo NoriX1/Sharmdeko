@@ -41,8 +41,10 @@
 
 .style__icon-search {
     position: absolute;
-    top: 100px;
-    left: 200px;
+    top: 50%;
+    margin-top: -15px;
+    left: 50%;
+    margin-left: -15px;
     z-index: 3;
 }
 
