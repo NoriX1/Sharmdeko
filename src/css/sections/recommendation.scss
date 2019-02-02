@@ -2,6 +2,9 @@
     background-color: white;
     padding-top: 65px;
     margin-bottom: 30px;
+    .bx-viewport{
+        height: 340px !important;
+    }
 }
 .recommendation__title{
     @include Roboto(regular);
