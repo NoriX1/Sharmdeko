@@ -4,16 +4,27 @@ $(document).ready(function(){
             speed: 1000,
             controls: false,
             touchEnabled : false,
+            infiniteLoop : true,
             auto: true,
             pause: 10000
         }
+        var recommendationSettings = {
+            speed: 1000,
+            controls: false,
+            touchEnabled : true,
+            auto: true,
+            infiniteLoop : true,
+            pause: 6000,
+            pager: false
+        }
         var slider = $(".slider__list").bxSlider(settings);
+        var recommendationSlider = $(".recommendation__slider").bxSlider(recommendationSettings);
     })();
     ymaps.ready(init);
     function init(){
-        var myPlacemark = new ymaps.Placemark([55.722314, 37.568605], { hintContent: 'Sharmdeco', balloonContent: 'ул.Ефремова, д.20' });
+        var myPlacemark = new ymaps.Placemark([55.761700, 37.718300], { hintContent: 'Sharmdeco', balloonContent: 'ул.2я-Синичкина 9а БЦ "Синица плаза"' });
         myMap = new ymaps.Map("map", {
-            center: [55.722826, 37.582649],
+            center: [55.762216, 37.740144],
             zoom: 14,
             controls: ['zoomControl']
         });
@@ -22,7 +33,7 @@ $(document).ready(function(){
                  float: 'left',
                  floatIndex: 100,
                  noPlacemark: true,
-                 placeholderContent:"Россия, Москва, ул. Ефремова, 20"
+                 placeholderContent:'Россия, Москва, ул. 2я-Синичкина 9а БЦ "Синица плаза"'
              }
         });
         myMap.controls.add(searchControl);

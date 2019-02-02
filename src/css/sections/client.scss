@@ -1,12 +1,12 @@
 .client{
     border-top: 45px solid $yellow;
     border-bottom: 45px solid $yellow;
-    background-color: $black;
+    background-color: white;
     text-align: center;
 }
 .client__title{
     font-size: 42px;
-    color:white;
+    color:$black;
 }
 .client__list{
     display: flex;
