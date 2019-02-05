@@ -5,9 +5,8 @@ $(document).ready(function(){
             e.preventDefault();
             var current = $(this);
             var item = current.closest(".project__item");
-            var container = current.closest(".project");
+            var container = current.closest(".project__block");
             var content = container.find(current.attr("href"));
-            console.log(content)
             var activeContent = container.find(".project__content-item")
                                 .filter(".active");
             if (flag){
