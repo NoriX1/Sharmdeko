@@ -2,9 +2,6 @@
     background-color: white;
     padding-top: 65px;
     margin-bottom: 30px;
-    .bx-viewport{
-        height: 340px !important;
-    }
 }
 .recommendation__title{
     @include Roboto(regular);
@@ -31,6 +28,7 @@
     padding: 30px;
     border: 5px solid transparent;
     transition: border .5s;
+    margin-bottom: 15px;
 }
 .recommendation__item:hover{
     border: 5px solid #e2e2e2;  
