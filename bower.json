@@ -6,6 +6,7 @@
   "license": "ISC",
   "homepage": "https://github.com/Vomilas/Sharmdeko",
   "dependencies": {
-    "bxslider-4": "^4.2.15"
+    "bxslider-4": "^4.2.15",
+    "fancybox": "FancyBox3#^3.5.6"
   }
 }
