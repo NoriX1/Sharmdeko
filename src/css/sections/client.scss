@@ -1,14 +1,18 @@
-.client{
+.client, .cert{
     border-top: 45px solid $yellow;
     border-bottom: 45px solid $yellow;
     background-color: white;
     text-align: center;
+    .bx-wrapper{
+        margin-bottom: 0;
+    }
 }
-.client__title{
+.client__title, .cert__title{
     font-size: 42px;
     color:$black;
+    margin-bottom: 20px
 }
-.client__list{
+.client__list, .cert__list{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -17,11 +21,17 @@
     margin-bottom: 40px;
 }
 .client__item{
-    height: 65px;
+    height: 100px;
     min-width: 100px;
     margin-right: 15px;
     margin-bottom: 15px;
 }
-.client__logo{
+.cert__item{
+    height: 180px;
+    min-width: 100px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.client__logo, .cert__image{
     max-height: 100%;
 }

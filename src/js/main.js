@@ -19,6 +19,8 @@ $(document).ready(function(){
         }
         var slider = $(".slider__list").bxSlider(settings);
         var recommendationSlider = $(".recommendation__slider").bxSlider(recommendationSettings);
+        var clientSlider = $(".client__slider").bxSlider(recommendationSettings);
+        var certSlider = $(".cert__slider").bxSlider(recommendationSettings);
     })();
     ymaps.ready(init);
     function init(){
