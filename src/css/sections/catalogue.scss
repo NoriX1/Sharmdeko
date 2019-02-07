@@ -31,43 +31,43 @@
     margin-top: 100px;
 }
 
-.projects {
+.portfolio {
     padding-top: 50px;
     margin-bottom: 30px;
 }
 
-.projects__content {
+.portfolio__content {
     justify-content: space-between;
     align-items: flex-start;
     display: flex;
 }
 
-.projects__header {
+.portfolio__header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.projects__header-left {
+.portfolio__header-left {
     width: 49%;
 }
 
-.projects__header-right {
+.portfolio__header-right {
     text-align: center;
 }
 
-.projects__title {
+.portfolio__title {
     @include Roboto(semibold);
     text-transform: uppercase;
     font-size: 36px;
     color: $black;
 }
 
-.projects__list {
+.portfolio__list {
     margin-top: 15px;
 }
 
-.projects__link {
+.portfolio__link {
     @include Roboto(bold);
     display: block;
     width: 100%;
@@ -77,29 +77,30 @@
     color: $yellow;
 }
 
-.projects__content-left {
+.portfolio__content-left {
     width: 52%;
+    margin-right: 20px;
 }
 
-.projects__content-right {
+.portfolio__content-right {
     width: 47%;
     @extend %clearfix;
 }
 
-.projects__name {
+.portfolio__name {
     @include Roboto();
     text-transform: uppercase;
     font-size: 28px;
     color: $grey;
 }
 
-.projects__content-desc {
+.portfolio__content-desc {
     font-size: 18px;
     color: $grey;
     padding-bottom: 15px;
 }
 
-.projects__table {
+.portfolio__table {
     width: 480px;
     color: $grey;
     border-collapse: collapse;
@@ -107,7 +108,17 @@
     font-size: 18px;
 }
 
-.projects__separate {
+.portfolio__separate {
     background-color: $yellow;
     height: 50px;
+}
+.portfolio__image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio__image-item{
+    width: 300px;
+    height: 200px;
 }
