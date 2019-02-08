@@ -49,6 +49,12 @@
     @include Roboto(light);
     font-size: 40px;
     margin-bottom: 20px;
+    display: block;
+}
+.slider__feature{
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: center;
 }
 .feature__item{
     display: inline-block;
@@ -57,6 +63,25 @@
     font-size: 21px;
     padding: 5px 10px;
     margin-right: 10px;
+    &:last-child{
+        padding: 0;
+        display: block;
+        margin: 20px auto;
+        background-color: transparent;
+    }
+}
+.slider__link{
+    display: inline-block;
+    color:white;
+    background-color: $yellow;
+    font-size: 21px;
+    padding: 5px 30px;
+    text-decoration: none;
+    transition: background-color .3s;
+    text-align: center;
+    &:hover{
+        background-color: #d19d00;
+    }
 }
 .slider__overlay{
     content: "";

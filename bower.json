@@ -7,6 +7,7 @@
   "homepage": "https://github.com/Vomilas/Sharmdeko",
   "dependencies": {
     "bxslider-4": "^4.2.15",
-    "fancybox": "FancyBox3#^3.5.6"
+    "fancybox": "FancyBox3#^3.5.6",
+    "jquery.maskedinput": "jquery-maskedinput#^1.4.1"
   }
 }

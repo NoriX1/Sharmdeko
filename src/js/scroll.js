@@ -25,6 +25,13 @@ $(document).ready(function(){
             var top = $(link).offset().top-135;
             $('body,html').animate({scrollTop: top}, 1000);
         })
+        $(".slider__link").on("click", function(e){
+            e.preventDefault();
+            var current = $(this);
+            var link = current.attr('href');
+            var top = $(link).offset().top-135;
+            $('body,html').animate({scrollTop: top}, 1000);
+        })
         $(window).on("scroll", function(e){
             if($(".menu").children(".menu__list").length > 0){
                 var scroll = $(window).scrollTop();
