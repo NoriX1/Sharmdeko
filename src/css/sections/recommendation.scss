@@ -1,6 +1,6 @@
 .recommendation{
     background-color: white;
-    padding-top: 65px;
+    padding-top: 30px;
     margin-bottom: 30px;
 }
 .recommendation__title{
@@ -29,6 +29,7 @@
     border: 5px solid transparent;
     transition: border .5s;
     margin-bottom: 15px;
+    padding-bottom: 10px;
 }
 .recommendation__item:hover{
     border: 5px solid #e2e2e2;  
