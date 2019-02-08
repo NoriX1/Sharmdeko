@@ -2,24 +2,25 @@
     margin-bottom: 20px;
 }
 .project__block{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     position: relative;
     &::after{
         content: "";
         display: block;
         background-color: #c2c2c2;
         width: 3000px;
-        height: 2000px;
+        // height: 2000px;
         position: absolute;
         top: -60px;
         right: 0;
+        bottom: -300px;
         margin-right: 52.5%;
         z-index: -1;
-        clip-path: polygon(0 6%, 100% 0, 100% 37%, 0 45%);
+        clip-path: polygon(0 0,100% 10%,100% 100%,0 100%);
     }
     &.project__block-reversed{
         position: relative;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         .project__header{
             flex-direction: row-reverse;
         }
@@ -64,7 +65,8 @@
             position: absolute;
             top: -60px;
             left: 0;
-            bottom: -160px;
+            //bottom: -160px;
+            bottom: 0;
             margin-left: 50%;
             z-index: -1;
             clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 100%);
