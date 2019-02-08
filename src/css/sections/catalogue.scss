@@ -33,7 +33,6 @@
 
 .portfolio {
     padding-top: 50px;
-    margin-bottom: 30px;
 }
 
 .portfolio__content {
@@ -122,6 +121,71 @@
     width: 300px;
     height: 200px;
 }
-.portfolio__form{
-    float: none;
+.portfolioForm{
+    margin-top: 50px;
+    height: 660px;
+    background-color: $black;
+    color: white;
+}
+.portfolioForm__title{
+    padding-top: 40px;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.portfolioForm__desc{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;    
+}
+.portfolioForm__list{
+    margin: 20px auto;
+    text-align: center;
+}
+.portfolioForm__item{
+    display: inline; 
+    margin-right: 30px; 
+}
+.portfolioForm__icon{
+    top: 5px;
+    margin-right: 10px;
+}
+
+.portfolioForm__submit{
+    @include Roboto(bold);
+    float: right;
+    outline: none;
+    padding: 10px;
+    width: 20%;
+    background-color: $yellow;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    transition: background .2s;
+    cursor: pointer;
+    &:hover{
+        background-color: #cc9a00;
+    }
+    &:active{
+        position: relative;
+        left: 2px;
+        top: 2px;
+    }
+}
+.portfolioForm__input{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border: 1px solid white ;
+    background-color: $black;
+    color:white;
+    margin: 10px 0;
+    font-weight: normal;
+    resize: none;
+    max-height: 110px;
+    &::placeholder{
+        opacity: 1;
+    }
 }
