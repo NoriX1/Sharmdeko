@@ -7,7 +7,11 @@ $(document).ready(function(){
         })
         $(".header__number").on("click", function(e){
             e.preventDefault();
-            
+            $("#wpcf7-f298-o1").children(".wpcf7-form").toggleClass("active");
+            toggleForm();
+        })
+        $(".repair__order").on("click", function(e){
+            e.preventDefault();
             $("#wpcf7-f298-o1").children(".wpcf7-form").toggleClass("active");
             toggleForm();
         })

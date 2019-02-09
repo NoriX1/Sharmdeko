@@ -123,9 +123,19 @@
 }
 .portfolioForm{
     margin-top: 50px;
-    height: 660px;
+    min-height: 660px;
     background-color: $black;
     color: white;
+    .wpcf7-form{
+        float: none;
+        width: 100%;
+        border: 5px solid transparent;
+        min-height: auto;
+        padding: 0;
+    }
+    .wpcf7-validation-errors{
+        display: inline-block;
+    }
 }
 .portfolioForm__title{
     padding-top: 40px;
@@ -134,7 +144,13 @@
     text-transform: uppercase;
     line-height: 1.5;
 }
-
+a.portfolioForm__text{
+    color:white;
+    text-decoration: none;
+    &:hover{
+        color:$yellow;
+    }
+}
 .portfolioForm__desc{
     text-align: center;
     font-size: 18px;

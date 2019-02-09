@@ -1,6 +1,6 @@
 .about{
     position: relative;
-    margin-bottom: 150px;
+    // margin-bottom: 150px;
 }
 .about__content{
     width: 100%;
@@ -10,7 +10,7 @@
     z-index: -3;
     padding-top: 125px;
     color:white;
-    clip-path: polygon(0 7%, 100% 0, 100% 93%, 0 100%);
+    clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 100%);
     &::before{
         display: block;
         content: "";
@@ -60,7 +60,7 @@
     flex-wrap: wrap;
     align-content: flex-start;
     margin-left: 50px; 
-    margin-bottom: 280px;
+    margin-bottom: 320px;
     @include ie11{
         max-width: 1170px;
     }
@@ -80,7 +80,8 @@
     color:black;
     font-size: 16px;
     position: absolute;
-    bottom: -50px;
+    // bottom: -50px;
+    bottom: 0;
     left: 50%;
     margin-left: -590px;
 
