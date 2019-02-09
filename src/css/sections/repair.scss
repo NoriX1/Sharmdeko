@@ -29,7 +29,7 @@
 .repair__block{
     width: 300px;
     background-color: #E5E5E5;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     position: relative;
     padding-bottom: 50px;
 }
@@ -60,7 +60,7 @@
     font-size: 18px;
     margin-bottom: 5px;
 }
-.repair__price{
+.repair__price, .repair__order{
     @include Roboto(bold);
     text-align: center;
     padding: 10px;
@@ -71,4 +71,13 @@
     bottom: 0;
     left: 0;
     right: 0;
+}
+.repair__order{
+    background-color: $black;
+    bottom: -50px;
+    text-decoration: none;
+    transition: background-color .3s;
+    &:hover{
+        background-color: #ffa600;
+    }
 }
